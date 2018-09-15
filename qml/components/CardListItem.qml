@@ -19,6 +19,7 @@ ListItem {
         id: layout
         width: parent.width
         title.text: front
+        title.color: settings.darkMode ? "white" : "black"
 
         Icon {
             name: "stock_note"
