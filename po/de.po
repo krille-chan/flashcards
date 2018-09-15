@@ -55,7 +55,7 @@ msgstr "%1 👍<b>%2</b> 👎<b>%3</b>"
 
 #: ../qml/pages/LearnModePage.qml:56
 msgid "Answer"
-msgstr ""
+msgstr "Antwort"
 
 #: ../qml/pages/LearnModePage.qml:65
 msgid "Skip"
