@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flashcards.christianpauly\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-15 09:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/pages/InfoPage.qml:11
+msgid "Info about Flashcards %1"
+msgstr ""
+
+#: ../qml/pages/InfoPage.qml:33
+msgid "Donate me a coffee"
+msgstr ""
+
+#: ../qml/pages/InfoPage.qml:40
+msgid "Contributors"
+msgstr ""
+
+#: ../qml/pages/InfoPage.qml:46
+msgid "Source code"
+msgstr ""
+
+#: ../qml/pages/InfoPage.qml:52
+msgid "License"
+msgstr ""
+
+#: ../qml/pages/DashPage.qml:33
+msgid "Stacks"
+msgstr ""
+
+#: ../qml/pages/DashPage.qml:54
+msgid "You first have to create a flashcard stack"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:14 ../qml/pages/QuizModePage.qml:14
+msgid "Now learning %1"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:19 ../qml/pages/QuizModePage.qml:19
+msgid "%1 👍<b>%2</b> 👎<b>%3</b>"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:60
+msgid "Answer"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:69
+msgid "Skip"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:75
+msgid "Check"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:85 ../qml/pages/QuizModePage.qml:51
+msgid "<font color=\"#00FF00\">That was correct!</font>"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:89 ../qml/pages/QuizModePage.qml:55
+msgid "<font color=\"#FF0000\">Sorry... that was wrong!</font>"
+msgstr ""
+
+#: ../qml/pages/BlankPage.qml:10
+msgid "Welcome"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:13
+msgid "Settings"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:25
+msgid "Case and case distinction"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:32
+msgid "Dark mode"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:39
+msgid "About Flashcards"
+msgstr ""
+
+#: ../qml/pages/StackSettingsPage.qml:56
+msgid "Learn now"
+msgstr ""
+
+#: ../qml/pages/StackSettingsPage.qml:63
+msgid "Quiz mode"
+msgstr ""
+
+#: ../qml/pages/StackSettingsPage.qml:84
+msgid "Flashcards (%1):"
+msgstr ""
+
+#: ../qml/pages/StackSettingsPage.qml:102
+msgid "Create new flashcard"
+msgstr ""
+
+#: ../qml/components/RemoveStackDialog.qml:11
+msgid "Are you sure you want to delete this stack?"
+msgstr ""
+
+#: ../qml/components/RemoveStackDialog.qml:22
+#: ../qml/components/RemoveCardDialog.qml:22
+#: ../qml/components/CreateCardDialog.qml:47
+#: ../qml/components/CreateStackDialog.qml:28
+#: ../qml/components/ChangeStackNameDialog.qml:29
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/components/RemoveStackDialog.qml:27
+#: ../qml/components/RemoveCardDialog.qml:27
+msgid "Yes"
+msgstr ""
+
+#: ../qml/components/RemoveCardDialog.qml:11
+msgid "Are you sure you want to delete this card?"
+msgstr ""
+
+#: ../qml/components/CreateCardDialog.qml:11
+msgid "Flashcard"
+msgstr ""
+
+#: ../qml/components/CreateCardDialog.qml:33
+msgid "Front"
+msgstr ""
+
+#: ../qml/components/CreateCardDialog.qml:39
+msgid "Back"
+msgstr ""
+
+#: ../qml/components/CreateCardDialog.qml:53
+#: ../qml/components/CreateStackDialog.qml:34
+#: ../qml/components/ChangeStackNameDialog.qml:35
+msgid "Save"
+msgstr ""
+
+#: ../qml/components/CreateStackDialog.qml:11
+#: ../qml/components/ChangeStackNameDialog.qml:11
+msgid "How should the stack be named?"
+msgstr ""
+
+#: ../qml/components/CreateStackDialog.qml:19
+#: ../qml/components/ChangeStackNameDialog.qml:19
+msgid "Name"
+msgstr ""
+
+#: ../qml/components/CreateStackDialog.qml:42
+msgid "Please choose a name that does not exist yet"
+msgstr ""
+
+#: flashcards.desktop.in.h:1
+msgid "Flashcards"
+msgstr ""
