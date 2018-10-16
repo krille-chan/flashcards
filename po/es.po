@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: flashcards.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 10:21+0000\n"
-"PO-Revision-Date: 2018-09-15 20:37+0000\n"
+"POT-Creation-Date: 2018-10-16 15:18+0000\n"
+"PO-Revision-Date: 2018-10-16 17:18+0200\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
 
 #: ../qml/pages/InfoPage.qml:11
 msgid "Info about Flashcards %1"
@@ -41,7 +41,7 @@ msgstr "Licencia"
 msgid "Stacks"
 msgstr "Pilas"
 
-#: ../qml/pages/DashPage.qml:54
+#: ../qml/pages/DashPage.qml:59
 msgid "You first have to create a flashcard stack"
 msgstr "Tiene que crear primero una pila de tarjetas"
 
@@ -65,13 +65,17 @@ msgstr "Omitir"
 msgid "Check"
 msgstr "Comprobar"
 
-#: ../qml/pages/LearnModePage.qml:85 ../qml/pages/QuizModePage.qml:51
+#: ../qml/pages/LearnModePage.qml:84 ../qml/pages/QuizModePage.qml:50
 msgid "<font color=\"#00FF00\">That was correct!</font>"
 msgstr "<font color=\"#00FF00\">¡Correcto!</font>"
 
-#: ../qml/pages/LearnModePage.qml:89 ../qml/pages/QuizModePage.qml:55
+#: ../qml/pages/LearnModePage.qml:88 ../qml/pages/QuizModePage.qml:54
 msgid "<font color=\"#FF0000\">Sorry... that was wrong!</font>"
 msgstr "<font color=\"#FF0000\">Lo siento... ¡está mal!</font>"
+
+#: ../qml/pages/LearnModePage.qml:89 ../qml/pages/QuizModePage.qml:55
+msgid "Correct solution: %1"
+msgstr "Solución correcta: %1"
 
 #: ../qml/pages/BlankPage.qml:10
 msgid "Welcome"
@@ -164,4 +168,4 @@ msgstr "Elija un nombre que no exista ya"
 
 #: flashcards.desktop.in.h:1
 msgid "Flashcards"
-msgstr "Flashcards" 
+msgstr "Flashcards"

@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the flashcards.christianpauly package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flashcards.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 10:21+0000\n"
+"POT-Creation-Date: 2018-10-16 15:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Stacks"
 msgstr ""
 
-#: ../qml/pages/DashPage.qml:54
+#: ../qml/pages/DashPage.qml:59
 msgid "You first have to create a flashcard stack"
 msgstr ""
 
@@ -65,12 +65,16 @@ msgstr ""
 msgid "Check"
 msgstr ""
 
-#: ../qml/pages/LearnModePage.qml:85 ../qml/pages/QuizModePage.qml:51
+#: ../qml/pages/LearnModePage.qml:84 ../qml/pages/QuizModePage.qml:50
 msgid "<font color=\"#00FF00\">That was correct!</font>"
 msgstr ""
 
-#: ../qml/pages/LearnModePage.qml:89 ../qml/pages/QuizModePage.qml:55
+#: ../qml/pages/LearnModePage.qml:88 ../qml/pages/QuizModePage.qml:54
 msgid "<font color=\"#FF0000\">Sorry... that was wrong!</font>"
+msgstr ""
+
+#: ../qml/pages/LearnModePage.qml:89 ../qml/pages/QuizModePage.qml:55
+msgid "Correct solution: %1"
 msgstr ""
 
 #: ../qml/pages/BlankPage.qml:10

@@ -46,6 +46,11 @@ Page {
         }
     }
 
+    MimeData {
+        id: mimeData
+        text: ""
+    }
+
 
     CreateStackDialog { id: createStackDialog }
     RemoveStackDialog { id: removeStackDialog }

@@ -39,6 +39,7 @@ Component {
                     db.transaction(
                         function(tx) {
                             tx.executeSql( 'UPDATE Stacks SET name="' + nameTextField.displayText + '" WHERE name="' + activeStack + '"' )
+                            tx.executeSql( 'UPDATE Cards SET stack_id="' + nameTextField.displayText + '" WHERE stack_id="' + activeStack + '"' )
                             PopupUtils.close(dialogue)
                         }
                     )

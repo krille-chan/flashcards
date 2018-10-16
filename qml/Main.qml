@@ -38,6 +38,7 @@ MainView {
     property var db: LocalStorage.openDatabaseSync("FlashcardsDB", "1.0", "The database of the app Flashcards", 1000000)
 
     SettingsController { id: settings }
+    Toast { id: toast }
 
     PageStack {
         id: sideStack

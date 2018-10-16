@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: flashcards.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-15 09:57+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2018-10-16 15:18+0000\n"
+"PO-Revision-Date: 2018-10-16 17:18+0200\n"
 "Last-Translator: Christian Pauly <christian-pauly@posteo.de>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
 
 #: ../qml/pages/InfoPage.qml:11
 msgid "Info about Flashcards %1"
@@ -41,7 +41,7 @@ msgstr "Lizenz"
 msgid "Stacks"
 msgstr "Stapel"
 
-#: ../qml/pages/DashPage.qml:54
+#: ../qml/pages/DashPage.qml:59
 msgid "You first have to create a flashcard stack"
 msgstr "Du musst zuerst einen Kartenstapel erstellen"
 
@@ -53,31 +53,35 @@ msgstr "Lerne nun %1"
 msgid "%1 👍<b>%2</b> 👎<b>%3</b>"
 msgstr "%1 👍<b>%2</b> 👎<b>%3</b>"
 
-#: ../qml/pages/LearnModePage.qml:56
+#: ../qml/pages/LearnModePage.qml:60
 msgid "Answer"
 msgstr "Antwort"
 
-#: ../qml/pages/LearnModePage.qml:65
+#: ../qml/pages/LearnModePage.qml:69
 msgid "Skip"
 msgstr "Überspringen"
 
-#: ../qml/pages/LearnModePage.qml:70
+#: ../qml/pages/LearnModePage.qml:75
 msgid "Check"
 msgstr "Überprüfen"
 
-#: ../qml/pages/LearnModePage.qml:75 ../qml/pages/QuizModePage.qml:47
+#: ../qml/pages/LearnModePage.qml:84 ../qml/pages/QuizModePage.qml:50
 msgid "<font color=\"#00FF00\">That was correct!</font>"
 msgstr "<font color=\"#00FF00\">Das war richtig!</font>"
 
-#: ../qml/pages/LearnModePage.qml:79 ../qml/pages/QuizModePage.qml:51
+#: ../qml/pages/LearnModePage.qml:88 ../qml/pages/QuizModePage.qml:54
 msgid "<font color=\"#FF0000\">Sorry... that was wrong!</font>"
 msgstr "<font color=\"#FF0000\">Sorry ... das war falsch!</font>"
+
+#: ../qml/pages/LearnModePage.qml:89 ../qml/pages/QuizModePage.qml:55
+msgid "Correct solution: %1"
+msgstr "Richtige Antwort: %1"
 
 #: ../qml/pages/BlankPage.qml:10
 msgid "Welcome"
 msgstr "Willkommen"
 
-#: ../qml/pages/SettingsPage.qml:14
+#: ../qml/pages/SettingsPage.qml:13
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -85,27 +89,27 @@ msgstr "Einstellungen"
 msgid "Case and case distinction"
 msgstr "Groß- und Kleinschreibung unterscheiden"
 
-#: ../qml/pages/SettingsPage.qml:26
+#: ../qml/pages/SettingsPage.qml:32
 msgid "Dark mode"
 msgstr "Nachtmodus"
 
-#: ../qml/pages/SettingsPage.qml:33
+#: ../qml/pages/SettingsPage.qml:39
 msgid "About Flashcards"
 msgstr "Über Flashcards"
 
-#: ../qml/pages/StackSettingsPage.qml:54
+#: ../qml/pages/StackSettingsPage.qml:56
 msgid "Learn now"
 msgstr "Jetzt lernen"
 
-#: ../qml/pages/StackSettingsPage.qml:60
+#: ../qml/pages/StackSettingsPage.qml:63
 msgid "Quiz mode"
 msgstr "Quizmodus"
 
-#: ../qml/pages/StackSettingsPage.qml:80
+#: ../qml/pages/StackSettingsPage.qml:84
 msgid "Flashcards (%1):"
 msgstr "Karteikarten (%1)"
 
-#: ../qml/pages/StackSettingsPage.qml:98
+#: ../qml/pages/StackSettingsPage.qml:102
 msgid "Create new flashcard"
 msgstr "Neue Karteikarte erstellen"
 
@@ -115,9 +119,9 @@ msgstr "Bist du sicher, dass du diesen Stapel löschen möchtest?"
 
 #: ../qml/components/RemoveStackDialog.qml:22
 #: ../qml/components/RemoveCardDialog.qml:22
-#: ../qml/components/CreateCardDialog.qml:46
-#: ../qml/components/CreateStackDialog.qml:27
-#: ../qml/components/ChangeStackNameDialog.qml:28
+#: ../qml/components/CreateCardDialog.qml:47
+#: ../qml/components/CreateStackDialog.qml:28
+#: ../qml/components/ChangeStackNameDialog.qml:29
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -138,13 +142,13 @@ msgstr "Karteikarte"
 msgid "Front"
 msgstr "Vorderseite"
 
-#: ../qml/components/CreateCardDialog.qml:38
+#: ../qml/components/CreateCardDialog.qml:39
 msgid "Back"
 msgstr "Rückseite"
 
-#: ../qml/components/CreateCardDialog.qml:51
-#: ../qml/components/CreateStackDialog.qml:32
-#: ../qml/components/ChangeStackNameDialog.qml:33
+#: ../qml/components/CreateCardDialog.qml:53
+#: ../qml/components/CreateStackDialog.qml:34
+#: ../qml/components/ChangeStackNameDialog.qml:35
 msgid "Save"
 msgstr "Speichern"
 
@@ -158,7 +162,7 @@ msgstr "Wie soll der Stapel heißen?"
 msgid "Name"
 msgstr "Name"
 
-#: ../qml/components/CreateStackDialog.qml:40
+#: ../qml/components/CreateStackDialog.qml:42
 msgid "Please choose a name that does not exist yet"
 msgstr "Bitte wähle einen Namen, der noch nicht existiert"
 

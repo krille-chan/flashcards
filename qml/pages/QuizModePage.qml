@@ -44,15 +44,15 @@ Page {
     function check ( answer ) {
         if ( !settings.caseAndCaseDistinction ) {
             answer = answer.toUpperCase()
-            correctBack = correctBack.toUpperCase()
         }
-        if ( answer === correctBack ){
+        if ( answer === correctBack.toUpperCase() ){
             correctCount++
             titleInfo = i18n.tr('<font color="#00FF00">That was correct!</font>')
         }
         else {
             failedCount++
             titleInfo = i18n.tr('<font color="#FF0000">Sorry... that was wrong!</font>')
+            toast.show ( i18n.tr('Correct solution: %1').arg(correctBack) )
         }
         nextQuestion ()
     }
