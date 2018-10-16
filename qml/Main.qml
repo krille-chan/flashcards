@@ -21,7 +21,7 @@ MainView {
         name: settings.darkMode ? "Ubuntu.Components.Themes.SuruDark" : "Ubuntu.Components.Themes.Ambiance"
     }
 
-    readonly property var version: "1.0.0"
+    readonly property var version: "1.1"
     property var tabletMode: width > units.gu(90)
     property var prevMode: false
     property var activeStack: ""
